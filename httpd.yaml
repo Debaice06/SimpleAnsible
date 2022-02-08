@@ -1,5 +1,5 @@
 -
-  hosts: Ansible-Client
+  hosts: target2
   tasks:
     - name: httpd installation
       yum:
